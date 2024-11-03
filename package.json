@@ -1,0 +1,26 @@
+{
+  "name": "workshop-iot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kasunvj/workshop-iot.git"
+  },
+  "author": "Kasun Vim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kasunvj/workshop-iot/issues"
+  },
+  "homepage": "https://github.com/kasunvj/workshop-iot#readme",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "body-parser": "^1.20.3",
+    "chart.js": "^4.4.6",
+    "express": "^4.21.1"
+  }
+}
