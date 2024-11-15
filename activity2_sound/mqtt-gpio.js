@@ -35,7 +35,7 @@ client.on('message', (topic, payload) => {
 
 setInterval(() => {
   const value = rpio.read(4);
-  console.log(`${value}`);
+  //console.log(`${value}`);
   if (value == 1){
     client.publish(topic, 'Sound detected', { qos: 0, retain: false }, (error) => {
       if (error) {
