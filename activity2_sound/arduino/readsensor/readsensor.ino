@@ -1,9 +1,11 @@
 	
 int sound_sensor = A2; //assign to pin A2
+int led = 13;
  
 void setup() 
 {
   Serial.begin(9600); //begin Serial Communication
+  
 }
  
 void loop()
